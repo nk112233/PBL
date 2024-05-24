@@ -16,13 +16,13 @@ app.use(cookieParser())
 
 
 //routes import
-import userRouter from './routes/user.routes.js'
-import blogRouter from "./routes/blog.routes.js";
-import questionRouter from "./routes/question.routes.js";
-import commentRouter from "./routes/comment.routes.js";
-import likesRouter from "./routes/likes.routes.js";
-import eventRouter from "./routes/event.routes.js";
-import answerRouter from "./routes/answer.routes.js";
+import userRouter from '../routes/user.routes.js'
+import blogRouter from "../routes/blog.routes.js";
+import questionRouter from "../routes/question.routes.js";
+import commentRouter from "../routes/comment.routes.js";
+import likesRouter from "../routes/likes.routes.js";
+import eventRouter from "../routes/event.routes.js";
+import answerRouter from "../routes/answer.routes.js";
 
 
 //routes declaration

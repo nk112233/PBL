@@ -1,7 +1,7 @@
 import { Router } from "express";
 
-import {verifyJWT} from "../middlewares/auth.middleware.js"
-import {postAnswer, getAnswers, deleteAnswer  } from "../controllers/answer.controller.js";
+import {verifyJWT} from "../api/middlewares/auth.middleware.js"
+import {postAnswer, getAnswers, deleteAnswer  } from "../api/controllers/answer.controller.js";
 
 
 const answerRouter = Router()

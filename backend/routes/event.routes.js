@@ -1,6 +1,6 @@
 import { Router } from "express";
-import {verifyJWT} from "../middlewares/auth.middleware.js"
-import { addEvent, getEvent, showEvents } from "../controllers/event.controller.js";
+import {verifyJWT} from "../api/middlewares/auth.middleware.js"
+import { addEvent, getEvent, showEvents } from "../api/controllers/event.controller.js";
 
 const eventRouter = Router()
 

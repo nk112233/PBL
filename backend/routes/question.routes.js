@@ -1,6 +1,6 @@
 import { Router } from "express";
-import {verifyJWT} from "../middlewares/auth.middleware.js"
-import {postQuestion, showQuestions, getQuestion} from "../controllers/question.controller.js";
+import {verifyJWT} from "../api/middlewares/auth.middleware.js"
+import {postQuestion, showQuestions, getQuestion} from "../api/controllers/question.controller.js";
 
 
 const questionRouter = Router()

@@ -5,10 +5,10 @@ import {
     likedBlogs,
     getUser,
     deleteAccount
-} from "../controllers/user.controller.js"
-import {verifyJWT} from "../middlewares/auth.middleware.js"
-import { postBlog } from "../controllers/blog.controller.js";
-import { upload } from "../middlewares/multer.middleware.js";
+} from "../api/controllers/user.controller.js"
+import {verifyJWT} from "../api/middlewares/auth.middleware.js"
+import { postBlog } from "../api/controllers/blog.controller.js";
+import { upload } from "../api/middlewares/multer.middleware.js";
 
 const userRouter = Router();
 

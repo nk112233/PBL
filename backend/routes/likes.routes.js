@@ -1,7 +1,7 @@
 import { Router } from "express";
 
-import {verifyJWT} from "../middlewares/auth.middleware.js"
-import {likeBlog, getLikesCount, getTopVoices, likeAnswer, getLikesCountAnswer} from "../controllers/likes.controller.js"
+import {verifyJWT} from "../api/middlewares/auth.middleware.js"
+import {likeBlog, getLikesCount, getTopVoices, likeAnswer, getLikesCountAnswer} from "../api/controllers/likes.controller.js"
 
 
 const likesRouter = Router()
